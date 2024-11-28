@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: black;
+}
+/* todo css */
+
+/* src/App.css */
+.app {
+  max-width: 400px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background:#282c34;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button[type="submit"] {
+  height: 33px;
+  width: 50px;
+  border-radius: 7px;
+  border: none;
+  background-color: red;
+  color: #fff;
+}
